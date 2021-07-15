@@ -1,0 +1,4 @@
+configuration:
+  url: jdbc:oracle:thin:@10.0.1.77:1521:tramite
+  user: TRAMITE_NUEVO
+  pass: Essalud20

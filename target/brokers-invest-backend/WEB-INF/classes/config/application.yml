@@ -1,0 +1,24 @@
+server:
+  port: 3133
+  jpa:
+    # Show or not log for each sql query
+    show-sql: false
+
+    hibernate:
+      # Hibernate ddl auto (create, create-drop, updateBO): with "updateBO" the database
+      # schema will be automatically updated accordingly to java entities found in
+      # the project
+      ddl-auto: none
+
+#configuration:
+#  url: jdbc:oracle:thin:@localhost:1521:tramite
+# user: TRAMITE_NUEVO20
+#  pass: Essalud20VO
+
+spring:
+  datasource:
+    jndi-name: java:/BasicDS
+    #url: jdbc:oracle:thin:@10.0.1.77:1521/tramite
+    #username: TRAMITE_NUEVO
+    #password: Essalud20
+    driver-class-name: org.postgresql.Driver
